@@ -27,8 +27,9 @@ public class BaseUtils {
 //		driver = new ChromeDriver(options);
 //		return driver;
 //	}
-	
+
 	public WebDriver driverIniti(String browser) {
+		System.out.println("Hello World");
 		if(browser.equals("chrome")) {
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setAcceptInsecureCerts(true);		
