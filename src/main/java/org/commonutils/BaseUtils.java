@@ -28,9 +28,6 @@ public class BaseUtils {
 //		return driver;
 //	}
 
-	/*
-	 * Driver inilization
-	 */
 	public WebDriver driverIniti(String browser) {
 		System.out.println("Hello World");
 		if(browser.equals("chrome")) {
